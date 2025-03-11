@@ -37,7 +37,7 @@ JWT_SECRET=your-jwt-secret
 
 npm run dev
 
-5.Access the application in your browser at http://localhost:3000.
+5.Access the application in your browser.
 
 Usage
 
