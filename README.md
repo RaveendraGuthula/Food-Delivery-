@@ -23,19 +23,19 @@ This project is a complete food ordering website/app built using React JS, Mongo
    cd food-ordering-app
    
 2. Install dependencies for both frontend and backend:
+   ```bash
+   npm install
+   cd client
+   npm install
 
-npm install
-cd client
-npm install
+3. Set up environment variables: Create a .env file in the root directory and add the following:
+   ```bash
+   MONGODB_URI=your-mongodb-uri
+   JWT_SECRET=your-jwt-secret
 
-3.Set up environment variables: Create a .env file in the root directory and add the following:
-
-MONGODB_URI=your-mongodb-uri
-JWT_SECRET=your-jwt-secret
-
-4.Run the development server:
-
-npm run dev
+4. Run the development server:
+   ```bash
+   npm run dev
 
 5.Access the application in your browser.
 
